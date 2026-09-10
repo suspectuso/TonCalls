@@ -1,0 +1,44 @@
+# Секреты
+.env
+.env.*
+!.env.example
+
+# Сессии Telethon (МАКСИМАЛЬНО ВАЖНО — утечка = полный доступ к TG)
+*.session
+*.session-journal
+
+# SQLite (dedup, inf_stats, ai_cache, contract_seen)
+*.sqlite
+*.sqlite-journal
+*.db
+forwarder_seen*
+
+# Корпус и аналитика
+corpus.jsonl
+corpus_analysis/
+
+# Кэши chart-proxy (генерируется на ходу)
+inflow/
+**/v2_*.png
+**/composite_*.png
+
+# Venv
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Логи
+*.log
+nohup.out
+
+# Local tooling caches
+.aislop/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/

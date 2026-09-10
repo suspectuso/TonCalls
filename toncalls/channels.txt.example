@@ -1,0 +1,9 @@
+# Source channels (one @handle per line). Comments start with #.
+#
+# The userbot account must already be a member of each channel — join them from
+# your own client before starting the service. Private channels can be listed
+# by their numeric chat_id (-100...).
+#
+# Examples (replace with your own list):
+@tondev_news
+@ton_blockchain

@@ -1,0 +1,15 @@
+[Unit]
+Description=TonCalls — forwarder + enriched composite poster
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/toncalls
+EnvironmentFile=/root/toncalls/.env
+ExecStart=/root/toncalls/.venv/bin/python /root/toncalls/main.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
