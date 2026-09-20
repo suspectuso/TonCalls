@@ -1,3 +1,10 @@
+<img src="https://raw.githubusercontent.com/suspectuso/suspectuso/9b84055845032c59df728478bbf1cffc65d0b422/assets/profile-opening.png" width="100%" alt="suspectuso — mascot in a green frog hoodie" />
+
+<p align="center">
+  <a href="https://t.me/zkprooff"><img src="https://raw.githubusercontent.com/suspectuso/suspectuso/9b84055845032c59df728478bbf1cffc65d0b422/assets/contact-telegram.svg" width="160" height="56" alt="Telegram" /></a>
+  <a href="mailto:dev@suspectus.ru"><img src="https://raw.githubusercontent.com/suspectuso/suspectuso/9b84055845032c59df728478bbf1cffc65d0b422/assets/contact-email.svg" width="160" height="56" alt="Email: dev@suspectus.ru" /></a>
+</p>
+
 # TonCalls
 
 Real-time mirror for TON memecoin calls posted across dozens of Telegram
@@ -139,3 +146,5 @@ MIT. See `LICENSE`.
 Issues and pull requests welcome. Please strip any private material (bot
 tokens, session files, real channel handles) before including logs or example
 payloads.
+
+<img src="https://raw.githubusercontent.com/suspectuso/suspectuso/9b84055845032c59df728478bbf1cffc65d0b422/assets/profile-closing-matched.png" width="100%" alt="Let’s build something — mascot waving goodbye" />
