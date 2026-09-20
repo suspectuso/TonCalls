@@ -5,6 +5,8 @@
   <a href="mailto:dev@suspectus.ru"><img src="https://raw.githubusercontent.com/suspectuso/suspectuso/9b84055845032c59df728478bbf1cffc65d0b422/assets/contact-email.svg" width="160" height="56" alt="Email: dev@suspectus.ru" /></a>
 </p>
 
+<img src="https://raw.githubusercontent.com/suspectuso/suspectuso/d5ef42d77eaf4ee10f4c0225b18445600c2b8359/assets/divider-mint.svg" width="100%" alt="" />
+
 # TonCalls
 
 Real-time mirror for TON memecoin calls posted across dozens of Telegram
@@ -19,6 +21,8 @@ LLM hot-take.
 media, poster handle and reaction counters; the quote block and buy links are
 appended to the message body.)*
 
+<img src="https://raw.githubusercontent.com/suspectuso/suspectuso/d5ef42d77eaf4ee10f4c0225b18445600c2b8359/assets/divider-mint.svg" width="100%" alt="" />
+
 ## Layout
 
 ```
@@ -31,6 +35,8 @@ systemd/        Ready-to-use unit files for prod deployment.
 docs/           Screenshots.
 ```
 
+<img src="https://raw.githubusercontent.com/suspectuso/suspectuso/d5ef42d77eaf4ee10f4c0225b18445600c2b8359/assets/divider-mint.svg" width="100%" alt="" />
+
 ## Requirements
 
 - Python 3.10+
@@ -38,6 +44,8 @@ docs/           Screenshots.
 - A public HTTPS-fronted domain for the `chart-proxy` service if you want link
   previews to render
 - Optional: a local Ollama or another OpenAI-compatible LLM endpoint
+
+<img src="https://raw.githubusercontent.com/suspectuso/suspectuso/d5ef42d77eaf4ee10f4c0225b18445600c2b8359/assets/divider-mint.svg" width="100%" alt="" />
 
 ## Setup
 
@@ -72,6 +80,8 @@ python -m venv .venv && .venv/bin/pip install -r requirements.txt
 On first start the userbot asks for the phone number of the user account and
 the confirmation code; both are stored in `<SESSION_NAME>.session`.
 
+<img src="https://raw.githubusercontent.com/suspectuso/suspectuso/d5ef42d77eaf4ee10f4c0225b18445600c2b8359/assets/divider-mint.svg" width="100%" alt="" />
+
 ## Production
 
 Sample `systemd` units are in `systemd/`. Copy to `/etc/systemd/system/`, set
@@ -100,6 +110,8 @@ server {
 Set `CHART_PROXY_DOMAIN=preview.example.com` in `.env` (no trailing slash, no
 scheme).
 
+<img src="https://raw.githubusercontent.com/suspectuso/suspectuso/d5ef42d77eaf4ee10f4c0225b18445600c2b8359/assets/divider-mint.svg" width="100%" alt="" />
+
 ## How it works
 
 1. The userbot subscribes to updates from every source channel and also runs a
@@ -123,10 +135,14 @@ scheme).
 7. An optional local LLM (Ollama, LM Studio, …) can be called for a one-line
    comment attached to the enriched post; see `toncalls/prompts/`.
 
+<img src="https://raw.githubusercontent.com/suspectuso/suspectuso/d5ef42d77eaf4ee10f4c0225b18445600c2b8359/assets/divider-mint.svg" width="100%" alt="" />
+
 ## Configuration reference
 
 All configuration is via environment variables. See
 `toncalls/.env.example` for the full list with explanations.
+
+<img src="https://raw.githubusercontent.com/suspectuso/suspectuso/d5ef42d77eaf4ee10f4c0225b18445600c2b8359/assets/divider-mint.svg" width="100%" alt="" />
 
 ## Related documentation
 
@@ -137,14 +153,20 @@ All configuration is via environment variables. See
 - Bot API 9.4 `style` for coloured inline buttons is used in the enriched-post
   payload.
 
+<img src="https://raw.githubusercontent.com/suspectuso/suspectuso/d5ef42d77eaf4ee10f4c0225b18445600c2b8359/assets/divider-mint.svg" width="100%" alt="" />
+
 ## License
 
 MIT. See `LICENSE`.
+
+<img src="https://raw.githubusercontent.com/suspectuso/suspectuso/d5ef42d77eaf4ee10f4c0225b18445600c2b8359/assets/divider-mint.svg" width="100%" alt="" />
 
 ## Contributing
 
 Issues and pull requests welcome. Please strip any private material (bot
 tokens, session files, real channel handles) before including logs or example
 payloads.
+
+<img src="https://raw.githubusercontent.com/suspectuso/suspectuso/d5ef42d77eaf4ee10f4c0225b18445600c2b8359/assets/divider-mint.svg" width="100%" alt="" />
 
 <img src="https://raw.githubusercontent.com/suspectuso/suspectuso/9b84055845032c59df728478bbf1cffc65d0b422/assets/profile-closing-matched.png" width="100%" alt="Let’s build something — mascot waving goodbye" />
