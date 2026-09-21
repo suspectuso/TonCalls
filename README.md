@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/suspectuso/suspectuso/9b84055845032c59df728478bbf1cffc65d0b422/assets/profile-opening.png" width="100%" alt="suspectuso — mascot in a green frog hoodie" />
+<img src="assets/branding/header-mascot.png" width="100%" alt="TonCalls — TON calls, enriched." />
 
 <p align="center">
   <a href="https://t.me/zkprooff"><img src="https://raw.githubusercontent.com/suspectuso/suspectuso/9b84055845032c59df728478bbf1cffc65d0b422/assets/contact-telegram.svg" width="160" height="56" alt="Telegram" /></a>
@@ -169,4 +169,4 @@ payloads.
 
 <img src="https://raw.githubusercontent.com/suspectuso/suspectuso/d5ef42d77eaf4ee10f4c0225b18445600c2b8359/assets/divider-mint.svg" width="100%" alt="" />
 
-<img src="https://raw.githubusercontent.com/suspectuso/suspectuso/9b84055845032c59df728478bbf1cffc65d0b422/assets/profile-closing-matched.png" width="100%" alt="Let’s build something — mascot waving goodbye" />
+<img src="assets/branding/footer-mascot.png" width="100%" alt="Follow the signal." />
